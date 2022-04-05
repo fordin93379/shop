@@ -6,7 +6,7 @@ function Header() {
      <br></br>
      <h3 className='sell'>Только в течении этой недели скидки на всё до -983235%</h3>
      <br></br>
-     <h1></h1>
+     <h1 className='Fedy'>Федя ПИДОР</h1>
     </div>
   );
 }
