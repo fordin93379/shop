@@ -1,4 +1,5 @@
 import './Header.css';
+import pic from "./dd.jpg" 
 function Header() {
   return (
     <div className="Header">
@@ -7,7 +8,7 @@ function Header() {
      <h3 className='sell'>Только в течении этой недели скидки на всё до -983235%</h3>
      <br></br>
      <h1 className='Fedy'>Федя ПИДОР</h1>
-    <img src='./Авун.jpg' alt='Fedy COOL' width="300" height="250"/>
+    <img src={pic} width="300" height="250"/>
     </div>
   );
 }
