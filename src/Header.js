@@ -14,5 +14,5 @@ function Header() {
 }
 //lesha pidor
 export default Header;
-let negr;
+let negraaaa;
 //Fedy big pidorass
