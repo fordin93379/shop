@@ -9,6 +9,7 @@ function Header() {
      <br></br>
      <h1 className='Fedy'>Федя ПИДОР</h1>
     <img src={pic} width="300" height="250"/>
+    
     </div>
   );
 }
