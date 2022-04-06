@@ -11,7 +11,15 @@ function Header() {
      <br></br>
      <h1 className='Fedy'>Федя ПИДОР</h1>
     <img src={pic} width="300" height="250"/>
-    
+    <div className='left'>
+     hj
+    </div>
+    <div className='right'>
+     hj
+    </div>
+    <div className='up'>
+     hj
+    </div>
     </div>
   );
 }

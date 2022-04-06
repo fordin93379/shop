@@ -10,3 +10,59 @@
     width: 30vw;
     margin-left: 35vw;
 }
+.left{
+    background-color: rgb(0, 0, 0); 
+    width: 50vw;
+    height: 100vw;  
+    z-index: 99999;
+    position: absolute;
+    top: 0px;
+animation: left 3s ease 1 normal 3s forwards;
+}
+@keyframes left{
+    0%{
+        width: 50vw;
+    }
+    100%{
+        width: 2vw;
+    }
+}
+.right{
+    background-color: rgb(0, 0, 0); 
+    width: 50vw;
+    height: 100vw;  
+    z-index: 99999;
+    left: 50vw;
+    position: absolute;
+    top: 0px;
+animation: right 3s ease 1 normal 3s forwards;
+}
+@keyframes right{
+    0%{
+        width: 50vw;
+        left: 50vw;
+    }
+    100%{
+        width: 2vw;
+        left: 98vw;
+    }
+}
+.up{
+    background-color: rgb(0, 0, 0); 
+    width: 100vw;
+    height: 100vw;  
+    z-index: 99999;
+    position: absolute;
+    bottom: 5vw;
+
+animation: up 3s ease 1 normal 3s forwards;
+}
+@keyframes up{
+    0%{
+        bottom: 5vw;
+    }
+    100%{
+        bottom: 48vw;
+    }
+}
+
