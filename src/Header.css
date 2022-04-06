@@ -1,7 +1,12 @@
-.ContainerToCenter{
-    color: white;   
-    width: 10vw;
-    margin-left: 45vw;
-    background-color: black;
-    
+.tolchok{
+ color: white;
+ background-color: black;
+ width: 10vw;
+ margin-left: 45vw;
 }
+.sell{
+    color: white;
+background-color: red;
+width: 30vw;
+margin-left: 35vw;
+   }
